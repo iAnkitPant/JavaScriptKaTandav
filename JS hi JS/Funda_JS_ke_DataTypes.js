@@ -104,4 +104,29 @@ function bigIntExample() {
         console.log("Person's Name:", person.name); // John Doe
         console.log("Person's Age:", person.age); // 30
     }
+
+    // Bonus Example:
+    function bonusExample() {
+        let name = "Alice";
+        let age = prompt("Please enter your age:", 18); // Prompting user for age input
+        let phoneNumber = 1234567890;
+        let isStudent = true;
+        let hobbies = ["reading", "traveling", "coding"]; // Array representing hobbies
+        let address = { // Object representing an address
+            street: "456 Elm St",
+            city: "Othertown",
+            country: "Canada"
+        };
+
+        alert("Name: " + name);
+        alert("Age: " + age);
+        let res = confirm("Are you sure you want to submit this information?");
+        if (res) {
+            alert("Information submitted successfully!");
+        }
+        else {
+            alert("Submission canceled.");
+        }
+
+    }
     
